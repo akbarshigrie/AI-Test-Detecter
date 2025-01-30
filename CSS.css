@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Textarea for input */
+textarea {
+    width: 100%;
+    height: 180px; /* Increased height */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    resize: none;
+}
+
+/* Placeholder text color */
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button Styling */
+button {
+    background: #ff9800;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Result text */
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
